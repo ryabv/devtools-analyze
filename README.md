@@ -54,3 +54,41 @@
 * **Scripting**: 4808 ms
 * **Rendering**: 1536 ms
 * **Painting**: 370 ms
+
+
+## Coverage
+
+<details>
+	<summary>Скриншот вкладки</summary>
+	<p>![Скриншот вкладки](./screenshots/tab-screenshot.png "Скриншот вкладки")</p>
+</details>
+
+Сколько времени тратится на разные этапы обработки документа:
+
+<table>
+	<tr>
+		<th>Тип</th>
+		<th>Объём</th>
+		<th>% неиспользуемого кода</th>
+	</tr>
+	<tr>
+		<td>CSS</td>
+		<td align="right">0.223 / 0.246 MB</td>
+		<td>91%</td>
+	</tr>
+	<tr>
+		<td>CSS+JS</td>
+		<td align="right">0.034 / 0.075 MB</td>
+		<td>46%</td>
+	</tr>
+	<tr>
+		<td>JS</td>
+		<td align="right">2,3 / 3,7 MB</td>
+		<td>62%</td>
+	</tr>
+	<tr>
+		<td><b>Всего</b></td>
+		<td align="right"><b>2.6 / 4 MB</b></td>
+		<td><b>64%</b></td>
+	</tr>
+</table>
