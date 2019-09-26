@@ -1,0 +1,11 @@
+{
+  "name": "devtools-analyze",
+  "version": "1.0.0",
+  "description": "На страницу загружается файл style.min.css?ver=17, однако при просмотре файла оказывается, что он не минифицирован.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

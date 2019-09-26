@@ -117,7 +117,7 @@
 
 <details>
 	<summary>Скриншот вкладки</summary>
-	<p>![Скриншот вкладки](./screenshots/tab-screenshot.png "Скриншот вкладки")</p>
+	<img src="./screenshots/tab-screenshot.png" alt="Скриншот вкладки">
 </details>
 
 Объём неиспользованных файлов в ходе загрузки страницы:
